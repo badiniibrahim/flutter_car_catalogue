@@ -10,4 +10,8 @@ class HomeState {
   final RxList<CarResponse> _carList = <CarResponse>[].obs;
   set carList(value) => _carList.value = value;
   List<CarResponse> get carList => _carList;
+
+   final RxBool _showModal = RxBool(true);
+  set showModal(value) => _showModal.value = value;
+  bool get showModal => _showModal.value;
 }

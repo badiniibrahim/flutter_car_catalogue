@@ -19,4 +19,8 @@ class HomeController extends GetxController with IController {
       },
     );
   }
+
+  void showModal(){
+    state.showModal = true;
+  }
 }
