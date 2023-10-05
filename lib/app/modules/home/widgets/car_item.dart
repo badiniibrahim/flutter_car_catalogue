@@ -1,12 +1,20 @@
 import 'package:car_catalogue/app/core/utilities/image_utils.dart';
 import 'package:car_catalogue/app/core/utilities/rent_utils.dart';
 import 'package:car_catalogue/app/data/models/car_response_model.dart';
+import 'package:car_catalogue/app/modules/home/controllers/home_controller.dart';
+import 'package:car_catalogue/app/modules/home/widgets/car_detail.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/svg.dart';
+import 'package:get/get.dart';
 
 class CarItem extends StatelessWidget {
   final CarResponse resource;
-  const CarItem({super.key, required this.resource});
+  final HomeController controller;
+  const CarItem({
+    super.key,
+    required this.resource,
+    required this.controller,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -117,7 +125,15 @@ class CarItem extends StatelessWidget {
           ),
           const SizedBox(height: 10.0),
           ElevatedButton(
-            onPressed: () {},
+            onPressed: () {
+              Get.to(CarDetails(
+                car: resource,
+                isOpen: true,
+                closeModal: () {
+                  Get.back();
+                },
+              ));
+            },
             style: ButtonStyle(
               backgroundColor: MaterialStateProperty.all<Color>(
                 Colors.blue, // Change to your preferred color

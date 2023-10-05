@@ -11,7 +11,7 @@ class HomeView extends GetView<HomeController> {
 
   AppBar _appBar() {
     return AppBar(
-      title: const Text("Accueil"),
+      title: const Text("accueil"),
       titleTextStyle: AppTheme.lightAppBarTheme.titleTextStyle!.copyWith(
         color: AppColors.white,
         fontFamily: 'muli',
@@ -39,7 +39,10 @@ class HomeView extends GetView<HomeController> {
                 itemCount: controller.state.carList.length,
                 itemBuilder: (BuildContext context, int index) {
                   final resource = controller.state.carList[index];
-                  return CarItem(resource: resource);
+                  return CarItem(
+                    resource: resource,
+                    controller: controller,
+                  );
                 },
               ),
             ),
