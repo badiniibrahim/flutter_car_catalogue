@@ -6,7 +6,8 @@ class HomeProvider extends IProvider<Response> {
   @override
   String get endpoint => "/cars";
 
-  Future<Response> fetchCar() async {
-    return await ApiProvider.instance.get(endpoint: "$endpoint?model=corolla");
+  Future<Response> fetchCar([String? name]) async {
+    String value = name ?? "Ford";
+    return await ApiProvider.instance.get(endpoint: "$endpoint?make=$value");
   }
 }
