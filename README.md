@@ -1,4 +1,4 @@
-## Build Flutter RATP application
+## Build Flutter CarHub application
 This is a repository for a Flutter application to display list of cars
 
 <h1 align="center">
