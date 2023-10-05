@@ -22,7 +22,7 @@ Follow the steps below to run the app on your local machine. You'll need to make
 
 # API
 This application uses the free API whose link is provided below.
-https://github.com/pgrimaud/horaires-ratp-api
+https://rapidapi.com/
 
 ## Contributors
 
