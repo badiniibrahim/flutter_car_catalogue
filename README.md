@@ -1,4 +1,4 @@
-# Build Flutter RATP application
+## Build Flutter RATP application
 This is a repository for a Flutter application to display list of cars
 
 <h1 align="center">
@@ -12,7 +12,7 @@ This is a repository for a Flutter application to display list of cars
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/badini-ibrahim-s-306b119b/)
 
 
-# Getting Started
+## Getting Started
 Follow the steps below to run the app on your local machine. You'll need to make sure you have flutter installed along with that Android Studio and XCode installed too in order to test this application in a simulator. Let me know if you encounter issues with the app
 
 1. Make sure to have flutter installed on your machine
@@ -20,8 +20,9 @@ Follow the steps below to run the app on your local machine. You'll need to make
 3. Open an emulator and run command 'flutter run' <Without quotes> within the cloned repo's folder.
 4. Try it out.
 
-# API
+## API
 This application uses the free API whose link is provided below.
+
 https://rapidapi.com/
 
 ## Contributors
