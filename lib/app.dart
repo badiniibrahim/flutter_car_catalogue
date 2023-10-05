@@ -17,7 +17,7 @@ class App extends StatelessWidget {
       splitScreenMode: false,
       builder: (context, child) {
         return GetMaterialApp(
-          title: "Car Catalogue",
+          title: "CarHub",
           localizationsDelegates: const [
             GlobalMaterialLocalizations.delegate,
             GlobalWidgetsLocalizations.delegate,

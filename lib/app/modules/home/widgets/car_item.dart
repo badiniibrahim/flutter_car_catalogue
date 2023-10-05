@@ -30,7 +30,7 @@ class CarItem extends StatelessWidget {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            '${resource.make} ${resource.model}',
+            '${resource.make!.toUpperCase()} ${resource.model!.toUpperCase()}',
             style: const TextStyle(
               fontSize: 18.0,
               fontWeight: FontWeight.bold,

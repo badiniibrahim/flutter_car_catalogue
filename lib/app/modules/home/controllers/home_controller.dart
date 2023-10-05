@@ -7,11 +7,11 @@ class HomeController extends GetxController with IController {
   final HomeState state = HomeState();
   final HomeRepository _repository = HomeRepository();
 
-  Future<void> fetchCar() async {
+  Future<void> fetchCar([String? name]) async {
     actionPerform(
       action: () async {
         state.isLoading = true;
-        final response = await _repository.fetchCar();
+        final response = await _repository.fetchCar(name);
         state.carList = response;
       },
       callback: () {
@@ -20,7 +20,7 @@ class HomeController extends GetxController with IController {
     );
   }
 
-  void showModal(){
+  void showModal() {
     state.showModal = true;
   }
 }

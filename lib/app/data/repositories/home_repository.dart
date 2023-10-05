@@ -8,8 +8,8 @@ class HomeRepository extends IRepository<Response> {
   @override
   HomeProvider get provider => HomeProvider();
 
-  Future<List<CarResponse>> fetchCar() async {
-    final response = await provider.fetchCar();
+  Future<List<CarResponse>> fetchCar([String? name]) async {
+    final response = await provider.fetchCar(name);
     var car = response.data as List;
     List<CarResponse> carList =
         car.map((m) => CarResponse.fromJson(m)).toList();
