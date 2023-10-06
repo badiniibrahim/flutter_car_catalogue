@@ -32,9 +32,7 @@ https://rapidapi.com/
 </a>
 
 # Screenshot
-![alt text](1.jpeg)
-![alt text](2.jpeg)
-![alt text](3.jpeg)
+![alt text](1.png)
 
 A few resources to get you started if this is your first Flutter project:
 
