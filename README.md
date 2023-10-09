@@ -11,6 +11,15 @@ This is a repository for a Flutter application to display list of cars
 
 [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/badini-ibrahim-s-306b119b/)
 
+## About this Repository
+![GitHub language count](https://img.shields.io/github/languages/count/badiniibrahim/flutter_car_catalogue)
+![GitHub top language](https://img.shields.io/github/languages/top/badiniibrahim/flutter_car_catalogue)
+![GitHub last commit](https://img.shields.io/github/last-commit/badiniibrahim/flutter_car_catalogue)
+![Github Repo Size](https://img.shields.io/github/repo-size/badiniibrahim/flutter_car_catalogue)
+![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white)
+<img src="https://img.shields.io/github/license/Yuberley/ChatGPT-App-React-Native-TypeScript?style&color=5D6D7E" alt="GitHub license" />
+
 
 ## Getting Started
 Follow the steps below to run the app on your local machine. You'll need to make sure you have flutter installed along with that Android Studio and XCode installed too in order to test this application in a simulator. Let me know if you encounter issues with the app
